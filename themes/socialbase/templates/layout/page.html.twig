@@ -107,15 +107,16 @@
         </div>
       {% endif %}
 
-      {% if page.content_bottom %}
-        <div class="row margin-top-sm">
-          <div class="col-xs-12">
-            {{ page.content_bottom }}
-          </div>
-        </div>
-      {% endif %}
-
     </div>
+
+    {% if page.content_bottom %}
+      <div class="row margin-top-sm">
+        <div class="col-xs-12">
+          {{ page.content_bottom }}
+        </div>
+      </div>
+    {% endif %}
+
   </div>
 
 </main>
